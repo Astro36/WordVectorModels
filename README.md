@@ -41,6 +41,11 @@ If training your own model, you have to install below library.
 * STEP 1-2. Install requirements packages.
 * STEP 2. Extract running texts to `./data` directory.
 * STEP 3. Run `./src/build_corpus.py`.
+
+```bash
+python build_corpus.py --lcode=ko
+```
+
 * STEP 4-1. Run `./src/train_word2vec.py` to get Word2Vec word vectors:
 
 ```bash
