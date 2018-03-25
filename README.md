@@ -2,9 +2,10 @@
 
 This project has two purposes. First of all, I'd like to share some of my experience in nlp tasks such as segmentation or word vectors. The other, which is more important, is that probably some people are searching for pre-trained word vector models for non-English languages. Alas! English has gained much more attention than any other languages has done. Check [this](https://github.com/3Top/word2vec-api) to see how easily you can get a variety of pre-trained English word vectors without efforts. I think it's time to turn our eyes to a multi language version of this.
 
-<b>Nearing the end of the work, I happened to know that there is already a similar job named `polyglot`. I strongly encourage you to check [this great project](https://sites.google.com/site/rmyeid/projects/polyglot). How embarrassing! Nevertheless, I decided to open this project. You will know that my job has its own flavor, after all.</b>
+**Nearing the end of the work, I happened to know that there is already a similar job named `polyglot`. I strongly encourage you to check [this great project](https://sites.google.com/site/rmyeid/projects/polyglot). How embarrassing! Nevertheless, I decided to open this project. You will know that my job has its own flavor, after all.**
 
 ## Requirements
+
 * nltk >= 1.11.1
 * regex >= 2016.6.24
 * lxml >= 3.3.3
@@ -16,8 +17,9 @@ This project has two purposes. First of all, I'd like to share some of my experi
 * jieba >= 0.38 (Only for Chinese)
 * gensim > =0.13.1 (for Word2Vec)
 * fastText (for [fasttext](https://github.com/facebookresearch/fastText))
-	
+
 ## Background / References
+
 * Check [this](https://en.wikipedia.org/wiki/Word_embedding) to know what word embedding is.
 * Check [this](https://en.wikipedia.org/wiki/Word2vec) to quickly get a picture of Word2vec.
 * Check [this](https://github.com/facebookresearch/fastText) to install fastText.
@@ -25,13 +27,15 @@ This project has two purposes. First of all, I'd like to share some of my experi
 * Go get various English word vectors [here](https://github.com/3Top/word2vec-api) if needed.
 
 ## Work Flow
-* STEP 1. Download the [wikipedia database backup dumps](https://dumps.wikimedia.org/backup-index.html) of the language you want.
+
+* STEP 1. Download the [wikipedia database backup dumps](https://dumps.wikimedia.org/backup-index.html) of the language you want (for example, for english wiki go to `https://dumps.wikimedia.org/enwiki/` click the latest timestamp, and download the `enwiki-YYYYMMDD-pages-articles-multistream.xml.bz2` file).
 * STEP 2. Extract running texts to `data/` folder.
 * STEP 3. Run `build_corpus.py`.
 * STEP 4-1. Run `make_wordvector.sh` to get Word2Vec word vectors.
-* STEP 4-2. Run `fasttext.sh` to get fastText word vectors. 
+* STEP 4-2. Run `fasttext.sh` to get fastText word vectors.
 
 ## Pre-trained models
+
 Two types of pre-trained models are provided. `w` and `f` represent `word2vec` and `fastText` respectively.
 
 | Language  |  ISO 639-1 | Vector Size | Corpus Size  | Vocabulary Size | 
