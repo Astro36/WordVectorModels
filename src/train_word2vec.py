@@ -36,7 +36,7 @@ def get_min_count(sents):
     
     return min_count
 
-def make_wordvectors():
+def train():
     global lcode
     import gensim # In case you have difficulties installing gensim, you need to consider installing conda.
 
@@ -70,6 +70,6 @@ def make_wordvectors():
                                               np.array_str(model[word])
                                               ))
 if __name__ == "__main__":
-    make_wordvectors()
+    train()
     
     print("Done")
