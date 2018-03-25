@@ -1,4 +1,4 @@
-# Language Code
+# Language
 
 > ISO 639-1 Language Code List
 
