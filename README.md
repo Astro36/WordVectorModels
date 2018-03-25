@@ -58,7 +58,7 @@ python train_word2vec.py --lcode=en --vector_size=300 --window_size=5 --vocab_si
 
 Two types of pre-trained models are provided. `w` and `f` represent `word2vec` and `fastText` respectively.
 
-Check language code [here](./Language.md)
+Check language code [here](./Language.md).
 
 | Language | ISO 639-1 | Vector Size | Corpus Size | Vocabulary Size |
 | -------- | --------- | ----------- | ----------- | --------------- |
@@ -91,3 +91,29 @@ Check language code [here](./Language.md)
 |[Thai(w)](https://drive.google.com/open?id=0B0ZXk88koS2KV1FJN0xRX1FxaFE) & [Thai(f)](https://www.dropbox.com/s/xj1ujw3es0umvzh/th.tar.gz?dl=0) | th | 300 | 696M | 30225 |
 |[Turkish(w)](https://drive.google.com/open?id=0B0ZXk88koS2KVDNLallXdlVQbUE) & [Turkish(f)](https://www.dropbox.com/s/9v6h6mz3dv5xgsh/tr.tar.gz?dl=0) | tr | 200 | 370M | 30036 |
 |[Vietnamese(w)](https://drive.google.com/open?id=0B0ZXk88koS2KUHZZZkVwd1RoVmc) & [Vietnamese(f)](https://www.dropbox.com/s/7de79czdc85pe8u/vi.tar.gz?dl=0) | vi | 100 | 74M | 10087 |
+
+## License
+
+```text
+Word Vector Models
+Copyright (c) 2018 Kyubyong Park, Astro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
