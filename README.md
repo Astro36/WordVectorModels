@@ -95,7 +95,7 @@ Check language code [here](./Language.md).
 ## License
 
 ```text
-Word Vector Models
+WordVectorModels
 Copyright (c) 2018 Kyubyong Park, Astro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -117,3 +117,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+WordVectorModels is forked from [wordvectors](https://github.com/Kyubyong/wordvectors).
